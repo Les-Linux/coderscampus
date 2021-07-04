@@ -1,0 +1,116 @@
+body{
+  margin: 0px;
+}
+.main {
+  background-color: #4a00f0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+}
+.logo{
+  flex-grow:96;
+}
+#logoImage {
+  margin: 5px 30px;
+  width: 100px;
+}
+#signin {
+  margin-right: 5px;
+  color: white;
+  font-size: 15px;
+  flex-grow: 2;
+}
+#try{
+  margin-right: 10%;
+  flex-grow: 2;
+}
+a{
+  color: white;
+}
+a:visited{
+  color: white;
+}
+#featured{
+  font-family: "Courier New";
+  margin-bottom: 0px;
+  font-size: 14px;
+}
+#tryButton{
+  padding: 8px 17px;
+  font-weight: bold;
+  margin: 10px;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, orange , darkorange);
+  color:white;
+  border: none;
+}
+#functionalMusic{
+  padding-left: 30px;
+  padding-top: 400px;
+}
+#improveMusic{
+  font-size: 30px;
+}
+#imageSeated{
+  width: 100%;
+}
+#freeSessions{
+  text-align: center;
+  padding: 15px 50px;
+  margin-top: 30px;
+  border-radius: 40px;
+  background-image: linear-gradient(to right, orange , darkorange);
+  color:white;
+  font-weight: bold;
+  border: none;
+}
+
+#science{
+  text-align: center;
+  flex:1;
+  padding: 150px 50px;
+  font-family: Arial;
+  font-weight: bold;
+}
+#seeScience{
+  padding-bottom:100px;
+}
+
+#brain{
+  width: 35%;
+  padding-right: 100px;
+}
+#phase{
+  width: 35%;
+}
+#patent{
+  flex: 1;
+  padding-right: 10px;
+}
+#behaviour{
+  flex:1;
+  patent-left: 10px;
+}
+#patentTopic{
+  font-family: Arial;
+  font-weight: bold;
+  font-size: large;
+}
+#behaviourTopic{
+  font-family: Arial;
+  font-weight: bold;
+  font-size: large;
+}
+.patentFooter{
+  padding-left: 80px;
+}
+
+#exploreScience{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+
+
