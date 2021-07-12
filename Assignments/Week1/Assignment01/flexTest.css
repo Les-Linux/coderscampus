@@ -1,0 +1,10 @@
+.container{
+    background-color: blue;
+    display: flex;
+}
+#p1{
+    flex-grow: 1;
+}
+#p2{
+    flex-grow: 1;
+}
