@@ -28,7 +28,11 @@ public class Main {
             guessMessage = validateGuess.Validate(scanner.nextInt(),randomNumberValue,maxNumber);
             if(guessMessage.substring(0,4).equals("Your")) {
                 System.out.println(guessMessage);
-            }else {
+            }else if(guessMessage.contains("win")){
+                System.out.println(guessMessage);
+                System.exit(0);
+            }
+            else {
                 i++;
                 if(i != 5){
                     System.out.println(guessMessage);

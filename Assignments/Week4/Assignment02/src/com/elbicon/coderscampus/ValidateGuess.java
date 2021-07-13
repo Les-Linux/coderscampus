@@ -1,8 +1,8 @@
 package com.elbicon.coderscampus;
 
 public class ValidateGuess {
-    private int guess;
-    private int randomNumber;
+    int guess;
+    int randomNumber;
 
     public String Validate(int guess, int randomNumber, int maxNumber){
         this.guess = guess;
