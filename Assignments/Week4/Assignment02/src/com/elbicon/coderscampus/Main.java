@@ -11,6 +11,7 @@ public class Main {
         ValidateGuess validateGuess = new ValidateGuess();
         int randomNumberValue = randomNumber.getRandomNumber();
         int numberOfGuesses = 5;
+        int minNumber = 1;
         int maxNumber = 100;
         String guessMessage;
 
@@ -19,7 +20,7 @@ public class Main {
 
         int i = 0;
         while (i != numberOfGuesses){
-            guessMessage = validateGuess.Validate(scanner.nextInt(),randomNumberValue,maxNumber);
+            guessMessage = validateGuess.Validate(scanner.nextInt(),randomNumberValue,minNumber, maxNumber);
             // Value out of bounds
             if(guessMessage.substring(0,4).equals("Your")) {
                 System.out.println(guessMessage);
@@ -30,8 +31,10 @@ public class Main {
                 i++;
                 if(i != 5){
                     System.out.println(guessMessage);
+                } else {
+                     System.out.println("You loose, the number to guess was " + randomNumberValue);
+                  }
                 }
             }
         }
     }
-}
