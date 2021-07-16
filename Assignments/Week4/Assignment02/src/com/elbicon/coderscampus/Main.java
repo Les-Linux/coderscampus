@@ -15,7 +15,7 @@ public class Main {
         int maxNumber = 100;
         String guessMessage;
 
-        System.out.println("Hint: " + randomNumberValue);
+        //System.out.println("Hint: " + randomNumberValue);
         System.out.println("Pick a Number between 1 and 100");
 
         int i = 0;
